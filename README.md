@@ -50,13 +50,6 @@ The improved model utilizes MobileNetV2, acting as a lightweight, scalable trans
 - **Stage 1**: The backbone acts purely as an aggressive feature extractor; it is frozen and only the dense classification head is trained.
 - **Stage 2**: Later layers of the backbone are unfrozen and trained with a conservatively small learning rate to adapt generic visual structures to the specific driver contexts.
 
-## Evaluation
-*Results will become available after running the modeling scripts. DO NOT fabricate results.*
-
-| Model        | Accuracy | Macro F1 | Weighted F1 |
-| ------------ | -------: | -------: | ----------: |
-| Baseline CNN |   actual |   actual |      actual |
-| MobileNetV2  |   actual |   actual |      actual |
 
 ## Error Analysis
 *Error Analysis logic generated upon receiving a Confusion Matrix through `src/evaluate.py`.*
