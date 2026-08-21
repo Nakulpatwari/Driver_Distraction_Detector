@@ -95,24 +95,43 @@ Project Structure
 
 
 Driver_Distraction_Detector/
+
 │
+
 ├── app/
+
 │   └── app.py
+
 │
+
 ├── data/
+
 │
+
 ├── models/
+
 │
+
 ├── outputs/
+
 │
+
 ├── src/
+
 │   ├── analysis/
+
 │   ├── evaluation/
+
 │   ├── explainability/
+
 │   └── inference/
+
 │
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
 
 Technologies
