@@ -1,28 +1,40 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Environments
-.env
-.venv
-env/
+# Virtual environment
+.venv/
 venv/
-ENV/
-env.bak/
-venv.bak/
+env/
 
-# Dataset and outputs
-data/*.csv
-data/imgs/
-models/*.keras
-!models/placeholder.txt
-outputs/*
-!outputs/baseline/
-!outputs/improved/
-!outputs/baseline/placeholder.txt
-!outputs/improved/placeholder.txt
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow
+*.h5
+*.keras
+*.pb
+
+# Large datasets/videos
+data/videos/
+data/raw/
+data/processed/
+
+# Generated outputs
+outputs/videos/
+outputs/reports/
+
+# Logs
+*.log
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml

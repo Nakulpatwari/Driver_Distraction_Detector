@@ -1,0 +1,4 @@
+metric,value
+validation_accuracy,0.5973986983299255
+test_accuracy,0.5711052417755127
+test_macro_f1,0.552699030408397
