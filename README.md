@@ -87,8 +87,13 @@ Distraction Detected: YES
 
 
 Distraction Percentage:
+
 86.67%
+
+
 Project Structure
+
+
 Driver_Distraction_Detector/
 │
 ├── app/
@@ -113,9 +118,15 @@ Driver_Distraction_Detector/
 Technologies
 
 Python
+
 TensorFlow / Keras
+
 MobileNetV2
+
 OpenCV
+
 NumPy
+
 Scikit-learn
+
 Streamlit
